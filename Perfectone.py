@@ -1,3 +1,12 @@
+"""
+Main app, contains code for GUI interface. 
+
+Uses the following-
+1. reader.py- Processes and analyses the wav file, and computes acoustic values
+2. creator.py- Creates tone of desired frequency, time duration and amplitude
+3. record.py- Records Audio from mic and saves to wav file
+
+"""
 import matplotlib
 matplotlib.use('TkAgg')
 
